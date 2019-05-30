@@ -1,7 +1,7 @@
 {
   "name": "shakti-server",
-  "version": "0.3.0",
-  "description": "Starter project for an ES6 RESTful Express API",
+  "version": "0.0.1",
+  "description": "Server for sakthi",
   "main": "dist",
   "scripts": {
     "dev": "nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developit/express-es6-rest-api.git"
+    "url": "git+https://github.com/charleshaa/sakthi-server.git"
   },
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
@@ -36,7 +36,11 @@
     "cors": "^2.7.1",
     "express": "^4.13.3",
     "morgan": "^1.8.0",
-    "resource-router-middleware": "^0.6.0"
+    "osx-brightness": "^4.0.0",
+    "request": "^2.88.0",
+    "resource-router-middleware": "^0.6.0",
+    "socket.io": "^2.2.0",
+    "systeminformation": "^4.5.1"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
@@ -47,7 +51,7 @@
     "nodemon": "^1.9.2"
   },
   "bugs": {
-    "url": "https://github.com/developit/express-es6-rest-api/issues"
+    "url": "https://github.com/charleshaa/sakthi-server/issues"
   },
-  "homepage": "https://github.com/developit/express-es6-rest-api#readme"
+  "homepage": "https://github.com/charleshaa/sakthi-server#readme"
 }
